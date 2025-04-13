@@ -2,7 +2,7 @@
   "name": "Daniells",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://DanielCP86.github.io/Daniells",
+  "homepage": "https://andreeapredescu.github.io/Daniells",
   "dependencies": {
     "@squoosh/cli": "^0.7.3",
     "@testing-library/jest-dom": "^5.16.3",
