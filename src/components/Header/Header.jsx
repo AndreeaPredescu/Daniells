@@ -50,7 +50,7 @@ const Header = () => {
           <NavLink to="/candy-bar">Candy Bar</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink to="/fillings">Compoziții</NavLink>
+          <NavLink>Compoziții</NavLink>
           <SubMenu>
             <SubMenuItem>
               <NavLink to="/fillings/cakes">Torturi</NavLink>
