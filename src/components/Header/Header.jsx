@@ -33,7 +33,9 @@ const Header = () => {
           <NavLink to="/about-us">Despre noi</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink>Produsele noastre</NavLink>
+          <NavLink to="#" onClick={e => e.preventDefault()}>
+            Produsele noastre
+          </NavLink>
           <SubMenu>
             <SubMenuItem>
               <NavLink to="/products/birthdayCakes">Torturi Aniversare</NavLink>
@@ -50,7 +52,9 @@ const Header = () => {
           <NavLink to="/candy-bar">Candy Bar</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink>Compoziții</NavLink>
+          <NavLink to="#" onClick={e => e.preventDefault()}>
+            Compoziții
+          </NavLink>
           <SubMenu>
             <SubMenuItem>
               <NavLink to="/fillings/cakes">Torturi</NavLink>
